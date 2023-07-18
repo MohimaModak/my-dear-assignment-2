@@ -154,5 +154,40 @@ nav {
     background-color: rgb(0, 0, 0);
     z-index: 1000;
 }
-
+.forth-first{
+}
+.forth{
+    padding: 5px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.kitty{
+    position: relative;
+    bottom: 12rem;
+    left: 25rem;
+}
+.forth-second{
+    margin-left: 3rem;
+    position: relative;
+    bottom: 4rem;
+}
+.forth-second h2 {
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 23px;
+    font-size: 1.8rem;
+}
+    .forth-second h2 span{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(rgb(253, 81, 167), rgb(143, 5, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.forth-second p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    padding-bottom: 8px;
+    color: rgb(68, 68, 68);
+}
 
