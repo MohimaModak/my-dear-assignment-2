@@ -19,7 +19,8 @@ nav {
     padding: 25px;
 }
 
-.nav-first h2 {
+.nav-first h2,
+.third h2 {
     padding-left: 22px;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
@@ -85,11 +86,12 @@ nav {
 .cover-first h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 4.2rem;
-    background: linear-gradient(rgb(253, 81, 167),rgb(143, 5, 255));
+    background: linear-gradient(rgb(253, 81, 167), rgb(143, 5, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.cover-first li{
+
+.cover-first li {
     list-style: none;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
@@ -97,7 +99,8 @@ nav {
     padding-bottom: 8px;
     color: rgb(68, 68, 68);
 }
-.cover-first button{
+
+.cover-first button {
     padding: 10px 25px;
     border: none;
     border-radius: 50px;
@@ -106,9 +109,50 @@ nav {
     color: white;
     font-family: 'Poppins', sans-serif;
 }
-.btn{
+
+.btn {
     background-color: rgb(253, 81, 167);
 }
-.atn{
+
+.atn {
     background-color: rgb(64, 201, 255);
 }
+
+.third {
+    padding: 5px 100px;
+    text-align: center;
+    margin: 4rem;
+}
+
+.third-first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom: 1rem;
+}
+
+.third-first .third-box,
+.third p {
+    margin: 15px;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    padding-bottom: 8px;
+    color: rgb(83, 82, 82);
+    cursor: pointer;
+}
+
+.third h2 span {
+    background: linear-gradient(rgb(253, 81, 167), rgb(143, 5, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.third-box img::before:hover {
+    background-color: rgb(0, 0, 0);
+    z-index: 1000;
+}
+
+
