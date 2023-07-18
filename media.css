@@ -79,6 +79,29 @@
         cursor: pointer;
         position: relative;
     }
+    .size{
+        position: relative;
+        right: 6rem;
+    }
+    .footer-first{
+        display: grid;
+        grid-template-areas: 'p p p';
+    }
+    .footer-second{
+        display: grid;
+        grid-template-areas: 'li li li';
+        position: relative;
+        left: 95px;
+    }
+    .footer-third{
+        display: grid;
+        grid-template-areas: 'p p ';
+    }
+    .footer-forth{
+        position: relative;
+        left: 33%;
+        color: gray;
+    }
     
     
     
