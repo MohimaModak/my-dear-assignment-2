@@ -154,36 +154,42 @@ nav {
     background-color: rgb(0, 0, 0);
     z-index: 1000;
 }
-.forth-first{
-}
-.forth{
+
+.forth-first {}
+
+.forth {
     padding: 5px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.kitty{
+
+.kitty {
     position: relative;
     bottom: 12rem;
     left: 25rem;
 }
-.forth-second{
+
+.forth-second {
     margin-left: 3rem;
     position: relative;
     bottom: 4rem;
 }
+
 .forth-second h2 {
     font-family: 'Poppins', sans-serif;
     padding-bottom: 23px;
     font-size: 1.8rem;
 }
-    .forth-second h2 span{
+
+.forth-second h2 span {
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(rgb(253, 81, 167), rgb(143, 5, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.forth-second p{
+
+.forth-second p {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 13px;
@@ -191,3 +197,40 @@ nav {
     color: rgb(68, 68, 68);
 }
 
+.fivth {
+    padding: 5px 100px;
+}
+
+.fivth-first {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fivth-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.fivth-box p {
+    padding-left: 15px;
+}
+
+.fivth-first :hover {
+    border: 2px solid rgb(252, 51, 151);
+    padding: 5px;
+    border-radius: 50px;
+}
+.fivth-first :hover p{
+    color: rgb(252, 51, 151);
+
+}
+.fivth-box :hover {
+    border: none;
+}
