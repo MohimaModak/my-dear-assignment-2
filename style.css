@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 5px 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(37, 37, 37);
+}
+.nav-first{
+    display: flex;
+    padding: 25px;
+}
+.nav-first h2{
+    padding-left: 22px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.8rem;
+}
+.nav-first h2 span{
+    color: rgb(253, 81, 167);
+}
+.nav-second{
+    display: flex;
+    align-items: center;
+}
+.nav-second li{
+    list-style: none;
+    margin: 0px 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.nav-second button{
+    background-color: rgba(219, 222, 224, 0.952);
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+.youtube{
+    align-items: center;
+    margin-left: 8px;
+    color: red;
+    font-size: 20px;
+}
+.tiktok{
+    align-items: center;
+    margin-left: 8px;
+    font-size: 17px;
+}
