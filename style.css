@@ -69,7 +69,6 @@ nav {
     align-items: center;
     background-color: rgb(253, 244, 253);
     padding: 5px 100px;
-
 }
 
 .cover-first {
@@ -121,15 +120,15 @@ nav {
 .third {
     padding: 5px 100px;
     text-align: center;
-    margin: 4rem;
+    margin-top: 4rem;
 }
 
 .third-first {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     position: relative;
-    bottom: 1rem;
+    bottom: 24px;
 }
 
 .third-first .third-box,
