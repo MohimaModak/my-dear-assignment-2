@@ -244,6 +244,7 @@ nav {
     align-items: center;
     background-color: rgb(0, 0, 46);
     color: rgb(224, 224, 224);
+    cursor: grab;
 }
 .footer .nav-first{
     position: relative;
@@ -258,6 +259,7 @@ nav {
 .footer-second{
     position: relative;
     left: 36%;
+    cursor: pointer;
 }
 .footer-third{
     position: relative;
