@@ -12,7 +12,8 @@ nav {
     color: rgb(37, 37, 37);
     padding: 20px 100px;
 }
-.nav-first{
+
+.nav-first {
     display: flex;
 }
 
@@ -67,7 +68,8 @@ nav {
     background-color: rgb(253, 244, 253);
     padding: 5px 100px;
 }
-.cover-second{
+
+.cover-second {
     position: relative;
     top: 10px;
 }
@@ -144,6 +146,25 @@ nav {
     color: rgb(83, 82, 82);
     cursor: pointer;
 }
+
+.third-box img:hover {
+    border: 2px solid rgb(252, 74, 163);
+    border-radius: 8px;
+}
+
+.icon li:hover {
+    opacity: 1;
+}
+
+.icon li {
+    list-style: none;
+    font-size: 2rem;
+    position: relative;
+    bottom: 16rem;
+    color: white;
+    opacity: 0;
+}
+
 
 .third h2 span {
     background: linear-gradient(rgb(253, 81, 167), rgb(143, 5, 255));
@@ -247,57 +268,68 @@ nav {
     color: rgb(224, 224, 224);
     cursor: g;
 }
-.footer .nav-first{
+
+.footer .nav-first {
     position: relative;
     left: 37%;
 }
-.footer-first{
+
+.footer-first {
     position: relative;
     left: 26%;
     padding: 15px;
 
 }
-.footer-second{
+
+.footer-second {
     position: relative;
     left: 36%;
     cursor: pointer;
 }
-.footer-third{
+
+.footer-third {
     position: relative;
     left: 30%;
 }
-.footer-forth{
+
+.footer-forth {
     position: relative;
     left: 2%;
 }
 
-.footer-first ,.footer-second,.footer-third{
+.footer-first,
+.footer-second,
+.footer-third {
     display: flex;
 }
-.footer-second{
+
+.footer-second {
     list-style: none;
     padding: 15px;
 }
-.footer-second li{
+
+.footer-second li {
     margin: 8px;
     font-size: 2rem;
     color: white;
 }
 
-.footer-first p{
+.footer-first p {
     margin: 12px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 13px;
 }
-.footer-third p{
+
+.footer-third p {
     margin: 15px;
     font-family: 'Poppins', sans-serif;
     font-size: 11px;
     color: gray;
 
 }
-.footer-forth p{
+
+.footer-forth p {
     font-family: 'Poppins', sans-serif;
     font-size: 11px;
     font-weight: 600;
