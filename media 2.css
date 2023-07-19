@@ -1,0 +1,18 @@
+@media screen and (max-width:1280px) and (min-width:800px) {
+    nav{
+        position: relative;
+        left: 4rem;
+    }
+    .cover{
+        position: relative;
+        left: 4rem;
+    }
+    .third{
+        position: relative;
+        left: 1.5rem;
+    }
+    .forth{
+        position: relative;
+        left: 2.3rem;
+    }
+}
