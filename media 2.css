@@ -1,18 +1,35 @@
 @media screen and (max-width:1280px) and (min-width:800px) {
     nav{
         position: relative;
-        left: 4rem;
+        left: 8rem;
     }
     .cover{
         position: relative;
-        left: 4rem;
+        left: 10rem;
     }
     .third{
         position: relative;
-        left: 1.5rem;
+        left: 6rem;
     }
     .forth{
         position: relative;
-        left: 2.3rem;
+        left: 4rem;
+    }
+    .kitty {
+        position: relative;
+        bottom: 5rem;
+        left: 20rem;
+    }
+    .fivth{
+        position: relative;
+        left: 5rem;
+    }
+    .footer{
+        position: relative;
+        left: 9rem;
+    }
+    .size{
+        position: relative;
+        right: 2rem;
     }
 }
