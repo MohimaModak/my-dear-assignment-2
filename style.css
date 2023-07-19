@@ -4,14 +4,16 @@
     box-sizing: border-box;
 }
 
-body {}
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: rgb(37, 37, 37);
-    padding: 5px 100px;
+    padding: 20px 100px;
+}
+.nav-first{
+    display: flex;
 }
 
 .nav-first h2,

@@ -85,10 +85,7 @@
     .fivth {
         padding: 5px 200px;
     }
-    .opacity{
-        opacity: 0;
-        display: none;
-    }
+   
     .fivth-box {
         display: flex;
         justify-content: center;
@@ -130,18 +127,5 @@
         left: 6.5rem;
         color: gray;
     }
-    
-    
-    
-}
 
-
-
-
-
-@media screen and (max-width:1024px) and (min-width:600px){
-    nav{
-        position: relative;
-        left: 3rem;
-    }
 }
