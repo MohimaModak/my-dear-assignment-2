@@ -14,11 +14,6 @@ nav {
     padding: 5px 100px;
 }
 
-.nav-first {
-    display: flex;
-    padding: 25px;
-}
-
 .nav-first h2,
 .third h2 {
     padding-left: 22px;
@@ -69,6 +64,10 @@ nav {
     align-items: center;
     background-color: rgb(253, 244, 253);
     padding: 5px 100px;
+}
+.cover-second{
+    position: relative;
+    top: 10px;
 }
 
 .cover-first {
